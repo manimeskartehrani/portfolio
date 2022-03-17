@@ -20,7 +20,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <CloudDownloadIcon className='icon' />
-                        <span><a href="./assets/Mani Meskartehrani CV.pdf" download > Resume</a></span>
+                        <span><a href="./assets/Mani-Meskartehrani-CV.pdf" download > Resume</a></span>
                     </div>
 
                 </div>
