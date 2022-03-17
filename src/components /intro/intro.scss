@@ -26,12 +26,12 @@
        
            @include mobile {
             align-items: flex-start;
-        };
+        }
         @include desktop {
             width: 120%;
             height: 120%;
-        }
-
+          }
+      
            img{
                
                height: 90%;
@@ -39,6 +39,7 @@
                @include mobile {
                    height: 50%;
                }
+            
            }
        }
     }
