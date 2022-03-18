@@ -19,7 +19,7 @@ export default function Contact() {
 
             <div className="right">
 
-                <h2>Contact</h2>
+                <h2>Contact<span>(Under Development)</span></h2>
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>

@@ -1,7 +1,7 @@
 @import '../../global.scss';
 
 .testimonials{
-    background-color: white;
+    background-color: #E6E2DD;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,10 @@
 
     h1{
         font-size: 50px;
+        span{
+            font-size: 40px;
+            color: #6667AB;
+          }
         @include mobile {
             font-size: 20px;
         }
@@ -96,7 +100,7 @@
             .center{
                 padding: 10px;
                 border-radius: 10px;
-                background-color: rgb(250, 244, 245);
+                background-color: #FFB600;
 
                 @include mobile {
                     font-size: 12px;
@@ -117,7 +121,7 @@
                     }
                 }
                 h4{
-                    color: gray;
+                    color: #FFB600;
                     @include mobile {
                         font-size: 13px;
                     }
