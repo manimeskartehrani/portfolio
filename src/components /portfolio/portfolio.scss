@@ -13,6 +13,9 @@
         span{
             font-size: 40px;
             color: #6667AB;
+            @include mobile{
+                font-size: 15px;
+              }
           }
         
         @include mobile {
